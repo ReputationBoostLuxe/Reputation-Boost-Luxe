@@ -12,7 +12,7 @@
       color: #0b1d2a;
     }
     .container {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
       padding: 60px 20px;
     }
@@ -20,9 +20,12 @@
       text-align: center;
       margin-bottom: 60px;
     }
+    header img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
     header h1 {
       font-size: 2.8rem;
-      color: #0b1d2a;
       margin-bottom: 10px;
     }
     header p {
@@ -38,30 +41,32 @@
       gap: 30px;
     }
     .card {
-      background: #f5f7fa;
-      border-radius: 18px;
-      padding: 30px;
+      background: #0b1d2a;
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 35px 30px;
       text-align: center;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
     }
     .card h3 {
       color: #d4af37;
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       margin-bottom: 10px;
-    }
-    .price {
-      font-size: 2rem;
-      color: #d4af37;
-      margin: 20px 0;
     }
     .card p {
       font-size: 0.95rem;
       line-height: 1.5;
+      opacity: 0.95;
+    }
+    .price {
+      font-size: 2.1rem;
+      color: #d4af37;
+      margin: 22px 0;
     }
     .btn {
       display: inline-block;
       margin-top: 25px;
-      padding: 14px 30px;
+      padding: 14px 34px;
       background: linear-gradient(135deg, #d4af37, #b8962e);
       color: #0b1d2a;
       text-decoration: none;
@@ -69,14 +74,24 @@
       border-radius: 30px;
     }
     .trust {
-      background: #f0f2f5;
-      padding: 40px 30px;
-      border-radius: 18px;
+      background: #0b1d2a;
+      color: #ffffff;
+      padding: 50px 30px;
+      border-radius: 22px;
       text-align: center;
     }
     .trust h2 {
       color: #d4af37;
       margin-bottom: 20px;
+    }
+    .faq {
+      max-width: 800px;
+      margin: 40px auto 0;
+      text-align: left;
+    }
+    .faq p {
+      margin-bottom: 20px;
+      line-height: 1.6;
     }
     footer {
       text-align: center;
@@ -91,15 +106,16 @@
   <div class="container">
 
     <header>
-      <img src="logo-rbl.png" alt="Reputation Boost Luxe" style="width:120px; margin-bottom:20px;" />
+      <img src="logo-rbl.png" alt="Reputation Boost Luxe" />
       <h1>Reputation Boost Luxe</h1>
-      <p>Gestion intelligente des avis Google pour établissements exigeants</p>
+      <p>Votre réputation Google, maîtrisée automatiquement pour rassurer les clients au moment décisif.</p>
     </header>
 
     <section class="section">
       <p>
-        Reputation Boost Luxe accompagne les hôtels et restaurants dans la gestion de leur réputation en ligne.
-        Chaque avis est traité comme un levier de confiance pour rassurer les clients au moment décisif.
+        La majorité des clients consultent les avis Google sans jamais en laisser. Ils lisent, comparent… puis décident en silence.
+        <br><br>
+        Reputation Boost Luxe transforme chaque avis en signal de confiance grâce à des réponses professionnelles assistées par intelligence artificielle, visibles 24h/24.
       </p>
     </section>
 
@@ -108,14 +124,14 @@
 
         <div class="card">
           <h3>Essentiel</h3>
-          <p>Analyse et réponses professionnelles aux avis Google via intelligence artificielle.</p>
+          <p>Analyse et réponses professionnelles aux avis Google pour protéger votre image.</p>
           <div class="price">79 € / mois</div>
           <a class="btn" href="https://buy.stripe.com/8x228tft27CngHA08laAw00">S’abonner</a>
         </div>
 
         <div class="card">
           <h3>Premium</h3>
-          <p>Réponses IA personnalisées, alertes avancées et reporting mensuel.</p>
+          <p>Réponses IA personnalisées, alertes prioritaires et reporting clair.</p>
           <div class="price">149 € / mois</div>
           <a class="btn" href="https://buy.stripe.com/aFaaEZgx6cWHdvo9IVaAw01">S’abonner</a>
         </div>
@@ -132,10 +148,14 @@
 
     <section class="section trust">
       <h2>Abonnement mensuel sans engagement</h2>
-      <p>
-        Résiliable à tout moment. Facturation automatique par Stripe.<br />
-        Vous gardez le contrôle.
-      </p>
+      <p>Résiliable à tout moment. Facturation automatique par Stripe. Aucun risque.</p>
+
+      <div class="faq">
+        <p><strong>Est-ce un engagement long terme ?</strong><br>Non. Vous pouvez arrêter quand vous le souhaitez.</p>
+        <p><strong>Supprimez-vous les avis négatifs ?</strong><br>Non. Nous les traitons intelligemment pour rassurer les futurs clients.</p>
+        <p><strong>À qui s’adresse ce service ?</strong><br>Aux hôtels et restaurants qui veulent une image maîtrisée sans y consacrer du temps.</p>
+        <p><strong>Quand voit-on les effets ?</strong><br>Dès les premières réponses visibles sur votre fiche Google.</p>
+      </div>
     </section>
 
     <footer>
