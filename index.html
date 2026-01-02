@@ -25,22 +25,27 @@
     }
 
     header img {
-      width: 120px;
-      margin-bottom: 20px;
+      width: 180px; /* logo agrandi */
+      margin-bottom: 25px;
     }
 
     header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
+      font-size: 2.9rem;
+      margin-bottom: 12px;
     }
 
     header p {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       opacity: 0.9;
     }
 
     .section {
       margin-bottom: 60px;
+    }
+
+    .highlight-gold {
+      color: #d4af37;
+      font-weight: bold;
     }
 
     .cards {
@@ -53,32 +58,32 @@
       background: #0b1d2a;
       color: #ffffff;
       border-radius: 22px;
-      padding: 36px 30px;
+      padding: 38px 32px;
       text-align: center;
       box-shadow: 0 15px 35px rgba(0,0,0,0.18);
     }
 
     .card h3 {
       color: #d4af37;
-      font-size: 1.7rem;
-      margin-bottom: 10px;
+      font-size: 1.75rem;
+      margin-bottom: 12px;
     }
 
     .card p {
       font-size: 0.95rem;
-      line-height: 1.5;
+      line-height: 1.55;
     }
 
     .price {
-      font-size: 2.1rem;
+      font-size: 2.15rem;
       color: #d4af37;
       margin: 22px 0;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 25px;
-      padding: 14px 34px;
+      margin-top: 26px;
+      padding: 14px 36px;
       background: linear-gradient(135deg, #d4af37, #b8962e);
       color: #0b1d2a;
       text-decoration: none;
@@ -89,14 +94,14 @@
     .trust {
       background: #0b1d2a;
       color: #ffffff;
-      padding: 55px 30px;
+      padding: 60px 30px;
       border-radius: 26px;
       text-align: center;
     }
 
     .trust h2 {
       color: #d4af37;
-      margin-bottom: 20px;
+      margin-bottom: 22px;
     }
 
     .faq {
@@ -111,10 +116,16 @@
     }
 
     footer {
+      background: #000000; /* fond plus sombre */
+      color: #ffffff;
       text-align: center;
-      font-size: 0.9rem;
-      opacity: 0.8;
+      font-size: 0.95rem;
+      padding: 40px 20px;
       margin-top: 60px;
+    }
+
+    footer strong {
+      color: #d4af37;
     }
   </style>
 </head>
@@ -126,16 +137,20 @@
     <header>
       <img src="logo-rbl.png" alt="Reputation Boost Luxe">
       <h1>Reputation Boost Luxe</h1>
-      <p>Votre réputation Google, maîtrisée automatiquement pour rassurer les clients au moment décisif.</p>
+      <p>
+        Votre <span class="highlight-gold">réputation Google</span>, maîtrisée automatiquement pour
+        <span class="highlight-gold">rassurer les clients</span> au moment décisif.
+      </p>
     </header>
 
     <section class="section">
       <p>
         La majorité des clients consultent les avis Google sans jamais en laisser.
-        Ils lisent, comparent… puis décident en silence.
+        Ils lisent, comparent… puis <span class="highlight-gold">décident en silence</span>.
         <br><br>
-        Reputation Boost Luxe transforme chaque avis en signal de confiance grâce à des réponses professionnelles
-        assistées par intelligence artificielle, visibles 24h/24.
+        Reputation Boost Luxe transforme chaque avis en
+        <span class="highlight-gold">levier de confiance</span> grâce à des réponses professionnelles
+        assistées par <span class="highlight-gold">intelligence artificielle</span>, visibles 24h/24.
       </p>
     </section>
 
@@ -144,21 +159,21 @@
 
         <div class="card">
           <h3>Essentiel</h3>
-          <p>Analyse et réponses professionnelles aux avis Google pour protéger votre image.</p>
+          <p>Analyse et réponses professionnelles aux avis Google pour protéger votre <span class="highlight-gold">image en ligne</span>.</p>
           <div class="price">79 € / mois</div>
           <a class="btn" href="https://buy.stripe.com/8x228tft27CngHA08laAw00">S’abonner</a>
         </div>
 
         <div class="card">
           <h3>Premium</h3>
-          <p>Réponses IA personnalisées, alertes prioritaires et reporting clair.</p>
+          <p>Réponses IA personnalisées, alertes prioritaires et <span class="highlight-gold">reporting clair</span>.</p>
           <div class="price">149 € / mois</div>
           <a class="btn" href="https://buy.stripe.com/aFaaEZgx6cWHdvo9IVaAw01">S’abonner</a>
         </div>
 
         <div class="card">
           <h3>Pro+</h3>
-          <p>Gestion avancée, recommandations stratégiques et accompagnement prioritaire.</p>
+          <p>Gestion avancée, <span class="highlight-gold">recommandations stratégiques</span> et accompagnement prioritaire.</p>
           <div class="price">249 € / mois</div>
           <a class="btn" href="https://buy.stripe.com/dRm4gBcgQg8TgHA08laAw02">S’abonner</a>
         </div>
@@ -171,27 +186,21 @@
       <p>Résiliable à tout moment. Facturation automatique par Stripe.</p>
 
       <div class="faq">
-        <p><strong>Est-ce un engagement long terme ?</strong><br>
-        Non. Vous pouvez arrêter quand vous le souhaitez.</p>
-
-        <p><strong>Supprimez-vous les avis négatifs ?</strong><br>
-        Non. Nous les traitons intelligemment avec des réponses professionnelles visibles par tous.</p>
-
-        <p><strong>À qui s’adresse ce service ?</strong><br>
-        Aux hôtels et restaurants qui veulent maîtriser leur image sans y consacrer du temps.</p>
-
-        <p><strong>Quand voit-on les premiers effets ?</strong><br>
-        Dès les premières réponses visibles sur votre fiche Google.</p>
+        <p><strong>Est-ce un engagement long terme ?</strong><br>Non. Vous pouvez arrêter quand vous le souhaitez.</p>
+        <p><strong>Supprimez-vous les avis négatifs ?</strong><br>Non. Nous les traitons intelligemment pour rassurer les futurs clients.</p>
+        <p><strong>À qui s’adresse ce service ?</strong><br>Aux hôtels et restaurants qui veulent une <span class="highlight-gold">image maîtrisée</span> sans y consacrer du temps.</p>
+        <p><strong>Quand voit-on les premiers effets ?</strong><br>Dès les premières réponses visibles sur votre fiche Google.</p>
       </div>
     </section>
 
-    <footer>
-      Contact : reputationboostluxe@gmail.com<br>
-      © 2026 Reputation Boost Luxe – France
-    </footer>
-
   </div>
+
+  <footer>
+    <strong>Contact :</strong> reputationboostluxe@gmail.com<br><br>
+    © 2026 <strong>Reputation Boost Luxe</strong> – France
+  </footer>
 
 </body>
 </html>
+
 
