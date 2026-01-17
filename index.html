@@ -54,7 +54,16 @@
       font-weight: bold;
     }
 
-    /* ===== CARDS ===== */
+    /* ===== TEXTE INTRO OFFRES ===== */
+    .intro-offres {
+      max-width: 900px;
+      margin: 0 auto 60px;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      text-align: center;
+    }
+
+    /* ===== OFFRES CARDS ===== */
     .cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -98,7 +107,7 @@
       border-radius: 30px;
     }
 
-    /* ===== TABLEAU ===== */
+    /* ===== TABLEAU COMPARATIF ===== */
     .pricing-table {
       width: 100%;
       border-collapse: collapse;
@@ -125,8 +134,8 @@
       background: #f6f6f6;
     }
 
-    .check { color: #1e8e3e; font-size: 20px; }
-    .cross { color: #d93025; font-size: 20px; }
+    .check { color: #1e8e3e; font-size: 20px; font-weight: bold; }
+    .cross { color: #d93025; font-size: 20px; font-weight: bold; }
 
     .highlight {
       background: #d4af37;
@@ -136,7 +145,7 @@
       font-weight: bold;
     }
 
-    /* ===== TRUST ===== */
+    /* ===== TRUST & FAQ ===== */
     .trust {
       background: #0b1d2a;
       color: #ffffff;
@@ -189,69 +198,111 @@
 <div class="container">
 
 <header>
-  <img src="logo-rbl.png">
+  <img src="logo-rbl.png" alt="Reputation Boost Luxe">
   <h1>Reputation Boost Luxe</h1>
-  <p>Votre <span class="highlight-gold">réputation Google, Booking, TripAdvisor</span>, maîtrisée automatiquement.</p>
+  <p>
+    Votre <span class="highlight-gold">réputation Google, Booking, TripAdvisor</span>,
+    maîtrisée automatiquement pour <span class="highlight-gold">rassurer les clients</span>
+    au moment décisif.
+  </p>
 </header>
 
+<section class="section intro-offres">
+  La majorité des clients consultent les avis Google, Booking ou TripAdvisor sans jamais en laisser.
+  Ils lisent, comparent… puis <span class="highlight-gold">décident en silence</span>.<br><br>
+  <strong>Reputation Boost Luxe</strong> vous aide, grâce à
+  <span class="highlight-gold">l’intelligence artificielle</span>,
+  à <span class="highlight-gold">collecter</span>, <span class="highlight-gold">traiter</span>
+  et <span class="highlight-gold">transformer chaque avis</span> en levier de confiance,
+  visible 24h/24 sur vos fiches.
+</section>
+
+<!-- OFFRES -->
 <section class="section">
   <div class="cards">
 
     <div class="card">
       <h3>Essentiel</h3>
-      <p>Audit fiche Google + Analyse et réponses professionnelles aux avis Google pour protéger votre <span class="highlight-gold">image en ligne</span>.</p>
+      <p>
+        Audit fiche Google + analyse et réponses professionnelles aux avis Google
+        pour protéger votre <span class="highlight-gold">image en ligne</span>
+        et rassurer immédiatement vos futurs clients.
+      </p>
       <div class="price">79 € / mois sans engagement</div>
       <a class="btn" href="https://buy.stripe.com/8x228tft27CngHA08laAw00">S’abonner</a>
     </div>
 
     <div class="card">
       <h3>Premium</h3>
-      <p>Audit, Réponses IA personnalisées, alertes prioritaires, carte de collecte avis QR code + process mise en place et <span class="highlight-gold">reporting clair</span>.</p>
-      <div class="price">149 € (Set-up) puis 59 € / mois</div>
+      <p>
+        Audit complet, réponses IA personnalisées et professionnelles,
+        alertes prioritaires, carte de collecte avis QR code,
+        mise en place du process de récolte et
+        <span class="highlight-gold">reporting clair et lisible</span>
+        pour piloter votre réputation.
+      </p>
+      <div class="price">149 € (set-up) puis 59 € / mois dès le 2ᵉ mois</div>
       <a class="btn" href="https://buy.stripe.com/aFaaEZgx6cWHdvo9IVaAw01">S’abonner</a>
     </div>
 
     <div class="card">
       <h3>Pro+</h3>
-      <p>Gestion avancée, plaque QR personnalisée, optimisation Google / TripAdvisor / Booking, conseils photos et <span class="highlight-gold">accompagnement prioritaire</span>.</p>
-      <div class="price">249 € (Set-up) puis 79 € / mois</div>
+      <p>
+        Gestion avancée des avis multi-plateformes,
+        carte de collecte + plaque QR personnalisée 20×20 livrée,
+        conseils photos, optimisation fiche Google, TripAdvisor et Booking,
+        recommandations stratégiques et
+        <span class="highlight-gold">accompagnement prioritaire</span>.
+      </p>
+      <div class="price">249 € (set-up) puis 79 € / mois dès le 2ᵉ mois</div>
       <a class="btn" href="https://buy.stripe.com/dRm4gBcgQg8TgHA08laAw02">S’abonner</a>
     </div>
 
   </div>
 </section>
 
-<!-- TABLEAU COMPLET -->
+<!-- TABLEAU COMPARATIF -->
 <section class="section">
 <table class="pricing-table">
-<tr><th>Offres</th><th>Essentiel</th><th>Premium</th><th>Pro+</th></tr>
-<tr><td>Avis / mois</td><td>20</td><td>50</td><td>100</td></tr>
+<tr><th>Offres</th><th>ESSENTIEL</th><th>PREMIUM</th><th>PRO+</th></tr>
+<tr><td>Avis / mois</td><td>20 (Google)</td><td>50 (Google & TripAdvisor)</td><td>100 (Google, TripAdvisor & The Fork)</td></tr>
 <tr><td>Audit fiche Google ⭐⭐⭐⭐⭐</td><td class="check">✔</td><td class="check">✔</td><td class="check">✔</td></tr>
 <tr><td>Avis positifs</td><td class="check">✔</td><td class="check">✔</td><td class="check">✔</td></tr>
 <tr><td>Avis négatifs</td><td class="check">✔</td><td class="check">✔</td><td class="check">✔</td></tr>
 <tr><td>Reporting</td><td class="cross">✖</td><td class="check">✔</td><td class="check">✔</td></tr>
 <tr><td>Carte collecte avis</td><td class="cross">✖</td><td><span class="highlight">100 unités</span></td><td><span class="highlight">250 unités</span></td></tr>
-<tr><td>Process récolte avis</td><td class="cross">✖</td><td class="check">✔</td><td class="check">✔</td></tr>
-<tr><td>Optimisation + conseils photos</td><td class="cross">✖</td><td class="cross">✖</td><td class="check">✔</td></tr>
+<tr><td>Mise en place process récolte avis</td><td class="cross">✖</td><td class="check">✔</td><td class="check">✔</td></tr>
+<tr><td>Optimisation fiche + conseils photos</td><td class="cross">✖</td><td class="cross">✖</td><td class="check">✔</td></tr>
 <tr><td>Pack avis + réputation</td><td class="cross">✖</td><td class="cross">✖</td><td class="check">✔</td></tr>
-<tr><td>Plaque QR personnalisée</td><td class="cross">✖</td><td class="cross">✖</td><td class="check">✔</td></tr>
+<tr><td>Plaque QR personnalisée 20×20</td><td class="cross">✖</td><td class="cross">✖</td><td class="check">✔</td></tr>
 <tr><td>Support</td><td>Email</td><td>Email + WhatsApp</td><td>Email + WhatsApp <strong>(prioritaire)</strong></td></tr>
 </table>
 </section>
 
 <section class="section trust">
-<h2>Abonnement sans engagement</h2>
+<h2>Abonnement mensuel sans engagement</h2>
+<p>Résiliable à tout moment. Facturation automatique par Stripe.</p>
+
 <div class="faq">
-<p><strong>Engagement ?</strong><br>Non, résiliable à tout moment.</p>
-<p><strong>Supprimez-vous les avis négatifs ?</strong><br>Non, nous les traitons intelligemment.</p>
-<p><strong>Quand voit-on les effets ?</strong><br>Dès les premières réponses visibles.</p>
+  <p><strong>Est-ce un engagement long terme ?</strong><br>
+  Non. Vous pouvez arrêter quand vous le <span class="highlight-gold">souhaitez</span>.</p>
+
+  <p><strong>Supprimez-vous les avis négatifs ?</strong><br>
+  Non. Nous les traitons <span class="highlight-gold">intelligemment</span> pour rassurer les futurs clients.</p>
+
+  <p><strong>À qui s’adresse ce service ?</strong><br>
+  Aux hôtels et restaurants qui veulent une <span class="highlight-gold">image maîtrisée</span> sans y consacrer du temps.</p>
+
+  <p><strong>Quand voit-on les premiers effets ?</strong><br>
+  Dès les premières réponses <span class="highlight-gold">visibles</span> sur votre fiche Google.</p>
 </div>
 </section>
 
 </div>
 
 <footer>
-© 2026 Reputation Boost Luxe – France<br><br>
+<strong>Contact :</strong> reputationboostluxe@gmail.com<br><br>
+© 2026 <strong>Reputation Boost Luxe</strong> – France<br><br>
 <a href="cgv.html">Conditions Générales de Vente</a>
 </footer>
 
