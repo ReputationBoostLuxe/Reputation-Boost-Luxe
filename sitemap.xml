@@ -1,70 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<url>
+  <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/</loc>
+</url>
 
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<url>
+  <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/index.html</loc>
+</url>
 
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/cgv.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/a-propos.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/gestion-avis-google.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/gestion-avis-tripadvisor.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/gestion-avis-booking.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/reputation-en-ligne-hotel.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/reputation-en-ligne-restaurant.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/etudes-de-cas.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/temoignages.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+<url>
+  <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/cgv.html</loc>
+</url>
 
 </urlset>
