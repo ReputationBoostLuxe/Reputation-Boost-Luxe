@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Pages principales -->
   <url>
     <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/</loc>
     <changefreq>weekly</changefreq>
@@ -20,14 +19,12 @@
     <priority>0.4</priority>
   </url>
 
-  <!-- Pages institutionnelles -->
   <url>
     <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/a-propos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
-  <!-- Pages services -->
   <url>
     <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/gestion-avis-google.html</loc>
     <changefreq>weekly</changefreq>
@@ -46,7 +43,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Pages SEO métiers -->
   <url>
     <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/reputation-en-ligne-hotel.html</loc>
     <changefreq>monthly</changefreq>
@@ -59,7 +55,6 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Pages crédibilité -->
   <url>
     <loc>https://reputationboostluxe.github.io/Reputation-Boost-Luxe/etudes-de-cas.html</loc>
     <changefreq>monthly</changefreq>
